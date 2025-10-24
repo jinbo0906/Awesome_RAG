@@ -245,15 +245,11 @@ cd xxx
 # 安装基础依赖
 pip install -r requirements.txt
 
-# 安装可选依赖（根据使用的算子选择，如OCR、Milvus）
-pip install xxx
-# Milvus依赖
-pip install pymilvus
-# 可视化工具依赖
-pip install streamlit
+# 安装可选依赖（根据使用的算子选择，如xxx）
+
 ```
 
-### 2. 配置文件设置
+### 2. 配置文件设置（待优化）
 
 修改 config.yaml 关键配置（根据实际需求调整）：
 
