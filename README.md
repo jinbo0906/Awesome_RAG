@@ -51,7 +51,7 @@
 
 ### 一、项目准备
 
-- [x] [接口规范说明](https://github.com/jinbo0906/Awesome_RAG/blob/main/%E6%8E%A5%E5%8F%A3%E8%A7%84%E8%8C%83%E8%AF%B4%E6%98%8E.md)
+- [x] [接口规范说明](接口规范说明.md)
 
 ### 二、离线链路模块任务
 
