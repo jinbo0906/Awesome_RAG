@@ -212,7 +212,7 @@ RAG策略持续更新...
 ## 项目结构
 
 ```Markdown
-rag-architecture-learning/
+Awesome_RAG/
 ├── offline/                  # 离线链路模块
 │   ├── document_parsing/     # 文档解析（MinerU、DeepSeek-OCR等）
 │   │   ├── __init__.py
