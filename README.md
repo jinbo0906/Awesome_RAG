@@ -58,9 +58,9 @@
 
 #### 1. 文档解析模块
 
-- [ ] 文档解析模块README—简介、主流文档解析方法调研、对比
-- [ ] 部署MinerU 教程
-- [ ] 部署PaddleOCR  教程
+- [x] 文档解析模块README—简介、主流文档解析方法调研、对比
+- [x] 部署MinerU 教程
+- [ ] 部署PaddleOCR-VL  教程
 - [ ] 实现 MinerU 、PaddleOCR等 解析工具的封装代码
 - [ ] 给出MinerU  与 PaddleOCR 等的对比测试
 - [ ] Word 解析（markitdown）、Markdown 解析等方法的实现
