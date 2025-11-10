@@ -77,6 +77,7 @@
     - [ ] LumberChunker
     - [ ] Late Chunking
     - [ ] Dense X Retrieval
+- [ ] 其他前沿切片策略
     - [ ] Small2big
     - [ ] HiChunk
 
