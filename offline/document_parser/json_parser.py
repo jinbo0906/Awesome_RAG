@@ -52,7 +52,7 @@ class JsonParser:
 
 
 if __name__ == "__main__":
-    json_path = "/home/hisense/forAI/mjb/Awesome_RAG/data/test/dev.json"
+    json_path = "./Awesome_RAG/data/test/dev.json"
     json_parser = JsonParser()
     documents = json_parser.parse(json_path)
     print(documents)
