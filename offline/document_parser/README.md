@@ -1,23 +1,5 @@
 # README
 
-## 目录
-
-- [模块简介](#模块简介)
-- [功能特点](#功能特点)
-- [核心解析器](#核心解析器)
-  - [1. PdfParser  ](#1-PdfParser--)
-  - [2. DocParser  ](#2-DocParser--)
-  - [3. TxtParser  ](#3-TxtParser--)
-  - [4. MarkdownParser  ](#4-MarkdownParser--)
-  - [5. JsonParser  ](#5-JsonParser--)
-- [解析器协同工作（AutoParser）  ](#解析器协同工作AutoParser--)
-- [接口说明](#接口说明)
-  - [输入参数](#输入参数)
-  - [输出结果](#输出结果)
-- [使用示例](#使用示例)
-  - [Pdf 文档解析](#Pdf-文档解析)
-  - [Word 文档解析](#Word-文档解析)
-
 ## 模块简介
 
 Document Parser 是 Awesome\_RAG 项目离线链路中的核心模块，负责将多种格式的原始文档解析为结构化文本数据，为后续的文档切片、向量化等流程提供基础。该模块支持多种主流文档格式（如 Word、Markdown、TXT 等），并集成了多种解析工具，能够高效、准确地提取文档内容及元信息。
