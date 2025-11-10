@@ -31,7 +31,7 @@ class PdfParser:
 
 if __name__ == "__main__":
     # Example usage
-    pdf_path = "/home/hisense/forAI/mjb/Awesome_RAG/offline/document_parser/MinerU/demo/test1"
+    pdf_path = "./Awesome_RAG/offline/document_parser/MinerU/demo/test1"
     pdf_parser = PdfParser()
     document = pdf_parser.parse(pdf_path)
     print(document)
