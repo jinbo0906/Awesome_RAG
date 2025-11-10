@@ -36,7 +36,7 @@ Document Parser 是 Awesome\_RAG 项目离线链路中的核心模块，负责�
 
 **功能**：处理 Word 文档格式，包括 `.doc` 和 `.docx` 两种后缀的文件。 &#x20;
 
-\*\*实现特点  \*\*
+**实现特点** &#x20;
 
 - 对 `.docx` 直接解析，对 `.doc` 先通过 `libreoffice` 转换为 `.docx` 再处理 &#x20;
 - 使用 `mammoth` 和 `markitdown` 工具提取文本内容并转换为 Markdown 格式 &#x20;
