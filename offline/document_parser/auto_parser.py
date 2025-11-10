@@ -56,8 +56,8 @@ class AutoParser:
 
 
 if __name__ == "__main__":
-    config_path = "/home/hisense/forAI/mjb/Awesome_RAG/config/parser_config.yaml"
-    input_dir = "/home/hisense/forAI/mjb/Awesome_RAG/data/test"
+    config_path = "./Awesome_RAG/config/parser_config.yaml"
+    input_dir = "./Awesome_RAG/data/test"
     parser = AutoParser(config_path)
     docs = parser.parse(input_dir, output_dir="output")
     for doc in docs:
