@@ -49,7 +49,7 @@ class TxtParser:
 
 
 if __name__ == "__main__":
-    txt_path = "/home/hisense/forAI/mjb/Awesome_RAG/offline/document_parser/output/test.txt"
+    txt_path = "./Awesome_RAG/offline/document_parser/output/test.txt"
     txt_parser = TxtParser()
     documents = txt_parser.parse(txt_path)
     print(documents)
