@@ -222,7 +222,7 @@ if __name__ == '__main__':
     pdf_suffixes = ["pdf"]
     image_suffixes = ["png", "jpeg", "jp2", "webp", "gif", "bmp", "jpg"]
     #
-    pdf_files_dir = "/home/hisense/forAI/mjb/Awesome_RAG/offline/document_parser/MinerU/demo/test"
+    pdf_files_dir = "./Awesome_RAG/offline/document_parser/MinerU/demo/test"
     doc_path_list = []
     for doc_path in Path(pdf_files_dir).glob('*'):
         if guess_suffix_by_path(doc_path) in pdf_suffixes + image_suffixes:
@@ -230,7 +230,7 @@ if __name__ == '__main__':
     #
     # """如果您由于网络问题无法下载模型，可以设置环境变量MINERU_MODEL_SOURCE为modelscope使用免代理仓库下载模型"""
     os.environ['MINERU_MODEL_SOURCE'] = "modelscope"
-    output_dir = "/home/hisense/forAI/mjb/Awesome_RAG/offline/document_parser/MinerU/output"
+    output_dir = "./Awesome_RAG/offline/document_parser/MinerU/output"
     """Use pipeline mode if your environment does not support VLM"""
     parse_doc(doc_path_list, output_dir, backend="pipeline")
 
