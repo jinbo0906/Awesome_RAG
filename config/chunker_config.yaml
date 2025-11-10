@@ -1,0 +1,20 @@
+chunk_method: fixed
+
+fixed:
+  chunk_size: 1000
+  chunk_overlap: 0
+
+self_defined:
+  chunk_size: 1000
+  chunk_overlap: 0
+
+
+semantic:
+  chunk_size: 1500
+  chunk_overlap: 0
+
+small2big:
+  block_size: 1000
+  segment_size: 500
+  sentence_size: 250
+

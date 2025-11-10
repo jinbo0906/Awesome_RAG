@@ -1,6 +1,4 @@
-import os
-
-from offline.document_parser.parser_utils import Document, gen_id
+from utils.offline_utils import Document, gen_id
 from offline.document_parser.MinerU.demo.mineru_parser import MineruParser
 
 

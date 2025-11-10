@@ -1,10 +1,10 @@
 import os
-from pdf_parser import PdfParser
-from doc_parser import DocParser
-from txt_parser import TxtParser
-from md_parser import MarkdownParser
-from json_parser import JsonParser
-from parser_utils import load_yaml_config
+from .pdf_parser import PdfParser
+from .doc_parser import DocParser
+from .txt_parser import TxtParser
+from .md_parser import MarkdownParser
+from .json_parser import JsonParser
+from utils.offline_utils import load_yaml_config
 
 from typing import List
 

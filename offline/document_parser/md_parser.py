@@ -1,6 +1,6 @@
 import os
 
-from offline.document_parser.parser_utils import Document, gen_id
+from utils.offline_utils import Document, gen_id
 
 
 class MarkdownParser:

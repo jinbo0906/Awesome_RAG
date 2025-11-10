@@ -1,7 +1,6 @@
 import os
-import json
 
-from offline.document_parser.parser_utils import Document, gen_id  # 如果你有gen_id方法
+from utils.offline_utils import Document, gen_id  # 如果你有gen_id方法
 
 
 class JsonParser:

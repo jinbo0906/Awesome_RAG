@@ -6,7 +6,7 @@ import mammoth
 from markitdown import MarkItDown
 import base64
 
-from offline.document_parser.parser_utils import Document, gen_id
+from utils.offline_utils import Document, gen_id
 
 
 class DocParser:
@@ -128,7 +128,7 @@ class DocParser:
 
 if __name__ == "__main__":
     # Example usage
-    doc_path = "./Awesome_RAG/data"
+    doc_path = "./Awesome_RAG/data/decrypt"
     output_dir = "./Awesome_RAG/offline/document_parser/output"
     doc_parser = DocParser()
     documents = doc_parser.parse(doc_path, output_dir)
