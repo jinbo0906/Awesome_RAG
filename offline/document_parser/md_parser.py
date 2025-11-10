@@ -49,7 +49,7 @@ class MarkdownParser:
 
 
 if __name__ == "__main__":
-    md_path = "/home/hisense/forAI/mjb/Awesome_RAG/offline/document_parser/output/test.md"
+    md_path = "./Awesome_RAG/offline/document_parser/output/test.md"
     md_parser = MarkdownParser()
     document = md_parser.parse(md_path)
     print(document)
