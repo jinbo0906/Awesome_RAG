@@ -128,8 +128,8 @@ class DocParser:
 
 if __name__ == "__main__":
     # Example usage
-    doc_path = "/home/hisense/forAI/mjb/Awesome_RAG/data/decrypt"
-    output_dir = "/home/hisense/forAI/mjb/Awesome_RAG/offline/document_parser/output"
+    doc_path = "./Awesome_RAG/data"
+    output_dir = "./Awesome_RAG/offline/document_parser/output"
     doc_parser = DocParser()
     documents = doc_parser.parse(doc_path, output_dir)
     print(documents)
