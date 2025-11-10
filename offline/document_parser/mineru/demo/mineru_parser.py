@@ -210,8 +210,8 @@ class MineruParser:
 
 
 if __name__ == '__main__':
-    pdf_files_dir = "/home/hisense/forAI/mjb/Awesome_RAG/offline/document_parser/MinerU/demo/test1/demo2.pdf"
-    # output_dir = "/home/hisense/forAI/mjb/Awesome_RAG/offline/document_parser/MinerU/output"
+    pdf_files_dir = "./Awesome_RAG/offline/document_parser/MinerU/demo/test1/demo2.pdf"
+    # output_dir = "./Awesome_RAG/offline/document_parser/MinerU/output"
     parser = MineruParser(pdf_files_dir)
     parse_results = parser.run()
     for i, parse_result_item in enumerate(parse_results):
